@@ -1,0 +1,46 @@
+.card-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    height: auto;
+    background-color: #f0eee9;
+    padding: 2% 0;
+    
+    .character-card {
+        background-color: #2d2c2f;
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column wrap;
+        width: 300px;
+        // height: auto;
+        margin: 1%;
+
+        h3 {
+            padding: 2%;
+            color: #f4f5f0;
+        }
+
+        .info {
+            padding: 2% 5%;
+            div {
+                padding: 2% 5%;
+                color: #bbbcbc;
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px solid #bbbcbc;
+                p:last-child {
+                    color: #CC8C62;
+                }
+                &:last-child {
+                    border-bottom: none;
+                }
+            }
+        }
+    }
+}
+
+// #0DBD59 spring green
+// #110533 midnight blue
+// #C2A75B dark khaki
+// #1D2F6F midnight blue too
+// #62162A saddle brown

@@ -1,0 +1,28 @@
+input {
+    font-family: inherit;
+    padding: 5px 3px;
+    border-radius: 2px 0 0 2px;
+    border: 1px solid #bbbcbc;
+    font-family: 'Anton', sans-serif;
+    
+    &:focus{
+        outline: none;
+    }
+}
+
+button {
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    background-color: #bbbcbc;
+    padding: 5px 3px;
+    // margin-left: .5%;
+    border: 1px solid #bbbcbc;
+    border-radius: 0 2px 2px 0;
+    color: #fcfcfc;
+
+    &:hover {
+        background-color: #fcfcfc;
+        border: 1px solid #bbbcbc;
+        color: #bbbcbc;
+    }
+}
